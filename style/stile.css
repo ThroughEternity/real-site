@@ -4,11 +4,24 @@
         
         .header {
             background-color: #EEEFF1;
+            height: 700px;
         }
     
-        .ig{
+        .img{
            width: 115.2px;
            height: 72px;
-           position: relative; top: 46px;
-           left: 392.4px;
+        }
+
+        .navbar {
+            position: relative;
+            
+            margin-bottom: 10px;
+            
+        
+          }
+          .navBrand{ position: relative;
+            
+            margin-bottom: 10px;
+           
+            padding-top: 60px;
         }
