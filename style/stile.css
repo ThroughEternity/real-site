@@ -2,6 +2,12 @@
     padding-top: 112px;
 
 }
+.blue{
+    background-color: #34547A;
+    height: 250px;
+    margin-top: 84px;
+    padding-top: 100px;
+}
 .button{
     font-size: 16px;
     border: none;
@@ -52,7 +58,15 @@ margin-bottom: 50px;
             background-color: #EEEFF1;
             height: 700px;
         }
-    
+    .h3{
+        font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+    }
         
         /* .i{
            width: 115.2px;
@@ -120,10 +134,13 @@ line-height: 26px;
 color: #727272;
   margin-bottom: 60px;
  }
+ .pblue{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+}
 
- .psevdo:after {
-    content: "40+ проектов";
-    background-color: #FFBA10;
-    border-color: black;
-    border-style: dotted;
-  }
