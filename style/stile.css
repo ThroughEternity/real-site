@@ -1,13 +1,50 @@
-        .h1 {
+.button{
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 25px 41px;
+    text-align: center;
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+}
+.butttext{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+.design{
+
+    padding-top: 147px;
+}
+.designimg{
+    padding-top: 168px;
+}
+       
+
+       .h1 {
             font-family: 'Roboto', sans-serif;
         }
-        
+        .h2{
+            font-family: 'Roboto', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+        }
         .header {
             background-color: #EEEFF1;
             height: 700px;
         }
     
-        .img{
+        /* .i{
            width: 115.2px;
            height: 72px;
            align-content: center;
@@ -23,23 +60,44 @@
         }
         .container{
             margin-left: 380.4px;
-            margin-right: 401px;}
+            margin-right: 401px;} */
 
-        .navbar-nav{
-                padding-top: 52px;
+        .navig{
+                padding-top: 46px;
          }
          .nav_text{
             font-family: 'Roboto', sans-serif;
             color: #000000;
+            font-weight: normal;
+            font-style: normal;
             line-height: 26px;
             font-size: 16px;
             letter-spacing: 0.1em;
+          
             
          }
          .navfirst_text{
             font-family: 'Roboto', sans-serif;
             color: #34547A;
+            font-style: normal;
+            font-weight: normal;
               line-height: 26px;
-                 font-size: 16px;
+             font-size: 16px;
               letter-spacing: 0.1em;
          }
+         .h1first{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 79px;
+            
+            color: #000000;
+         }
+         .rtr{
+            justify-content:space-evenly;
+         }
+        .designpadding{
+            padding-top: 52px;
+        }
+        
