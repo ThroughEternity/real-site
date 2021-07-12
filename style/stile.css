@@ -10,18 +10,36 @@
         .img{
            width: 115.2px;
            height: 72px;
+           align-content: center;
         }
 
         .navbar {
             position: relative;
             
-            margin-bottom: 10px;
-            
-        
-          }
-          .navBrand{ position: relative;
-            
-            margin-bottom: 10px;
-           
-            padding-top: 60px;
         }
+          .navBrand{ position: relative;
+            margin-bottom: 10px;
+            padding-top: 30px;
+        }
+        .container{
+            margin-left: 380.4px;
+            margin-right: 401px;}
+
+        .navbar-nav{
+                padding-top: 52px;
+         }
+         .nav_text{
+            font-family: 'Roboto', sans-serif;
+            color: #000000;
+            line-height: 26px;
+            font-size: 16px;
+            letter-spacing: 0.1em;
+            
+         }
+         .navfirst_text{
+            font-family: 'Roboto', sans-serif;
+            color: #34547A;
+              line-height: 26px;
+                 font-size: 16px;
+              letter-spacing: 0.1em;
+         }
