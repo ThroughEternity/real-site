@@ -25,9 +25,7 @@ letter-spacing: 0.1em;
 
     padding-top: 147px;
 }
-.designpadding{
- 
-}
+
 .designimg{
     padding-top: 168px;
 }
@@ -122,3 +120,10 @@ line-height: 26px;
 color: #727272;
   margin-bottom: 60px;
  }
+
+ .psevdo:after {
+    content: "40+ проектов";
+    background-color: #FFBA10;
+    border-color: black;
+    border-style: dotted;
+  }
