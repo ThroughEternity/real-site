@@ -1,3 +1,7 @@
+.aboutme{
+    padding-top: 112px;
+
+}
 .button{
     font-size: 16px;
     border: none;
@@ -9,41 +13,49 @@
     background-color: #34547A;
 }
 .butttext{
-font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.1em;
-
-color: #FFFFFF;
 }
 
 .design{
 
     padding-top: 147px;
 }
+.designpadding{
+ 
+}
 .designimg{
     padding-top: 168px;
 }
+
        
 
        .h1 {
             font-family: 'Roboto', sans-serif;
-        }
-        .h2{
-            font-family: 'Roboto', sans-serif; 
 font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
+text-align: center;
+margin-bottom: 50px;
         }
+        .h1first{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 79px;  
+            color: #000000;
+            margin-bottom: 60px;
+         }
+       
         .header {
             background-color: #EEEFF1;
             height: 700px;
         }
     
+        
         /* .i{
            width: 115.2px;
            height: 72px;
@@ -64,6 +76,7 @@ color: #727272;
 
         .navig{
                 padding-top: 46px;
+                
          }
          .nav_text{
             font-family: 'Roboto', sans-serif;
@@ -85,19 +98,27 @@ color: #727272;
              font-size: 16px;
               letter-spacing: 0.1em;
          }
-         .h1first{
-            font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 48px;
-            line-height: 79px;
-            
-            color: #000000;
-         }
-         .rtr{
+
+         .navpan{
             justify-content:space-evenly;
          }
-        .designpadding{
-            padding-top: 52px;
+
+        .p{
+            font-family: 'Roboto', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
         }
-        
+
+        .pzag{
+            font-family: 'Roboto', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+  margin-bottom: 60px;
+ }
