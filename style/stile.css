@@ -45,9 +45,9 @@ letter-spacing: 0.1em;
        .h1 {
             font-family: 'Roboto', sans-serif;
             font-style: normal;
-
             text-align: center;    
             color: #000000;
+            margin-bottom: 50px;
         }
         .h1first{
             font-family: 'Roboto', sans-serif;
@@ -96,6 +96,13 @@ color: #FFFFFF;
             margin-left: 380.4px;
             margin-right: 401px;} */
 
+            .video {
+                margin-bottom: 100px;
+            }
+            .videoh{
+                background-color: #EEEFF1;
+            height: 1002px;
+            }
         .navig{
                 padding-top: 46px;
                 
@@ -163,4 +170,9 @@ color: #727272;
 }
 .skills{
     padding-top: 102px;
+    padding-bottom: 101px;
+}
+
+.row_2 {
+    margin-top: 162px;
 }
