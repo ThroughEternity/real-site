@@ -109,7 +109,10 @@ color: #FFFFFF;
                 background-color: #EEEFF1;
             
             }
-
+.message{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
         .navig{
                 padding-top: 46px;
                 
@@ -184,16 +187,15 @@ color: #727272;
     padding-top: 102px;
     padding-bottom: 101px;
 }
+.stick{
+    background-color: red;
+}
+.stick:hover::after {
+    position: absolute; /* Абсолютное позиционирование */
+    background: rgba(209,155,111,0.8); /* Цвет фона */
 
-.stick:hover:after {
-    
-    color: #333; /* Цвет текста */ 
-    background-color: #fc0; /* Цвет фона */ 
-    font-size: 90%; /* Размер шрифта */ 
-    padding: 100%; /* Поля вокруг текста */ 
-    left: 0; right: 0;
-    content:
-  }
+
+   }
 
 .spanblue{
 font-family: 'Roboto', sans-serif; 
@@ -206,4 +208,7 @@ padding-left: 10px;
 }
 .footer{
     background-color: #34547A;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
