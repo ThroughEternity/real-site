@@ -1,23 +1,28 @@
+.about{
+    padding-top: 100px;
+}
+
 .aboutme{
     padding-top: 112px;
 
 }
+
 .blue{
     background-color: #34547A;
-    height: 250px;
     margin-top: 84px;
     padding-top: 100px;
+    padding-bottom: 80px;
 }
+
 .button{
     font-size: 16px;
     border: none;
     color: white;
     padding: 25px 41px;
     text-align: center;
-    width: 225px;
-    height: 65px;
     background-color: #34547A;
 }
+
 .butttext{
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -28,19 +33,18 @@ letter-spacing: 0.1em;
 }
 
 .design{
-
     padding-top: 147px;
+    padding-bottom: 157px;
 }
 
-.designimg{
-    padding-top: 168px;
+.mcsoft{
+    padding-top: 72px;
+    padding-bottom: 100px;
 }
 
 .bgskill{
-    background-color: #34547A;
-    
+    background-color: #34547A;   
 }
-       
 
        .h1 {
             font-family: 'Roboto', sans-serif;
@@ -49,6 +53,7 @@ letter-spacing: 0.1em;
             color: #000000;
             margin-bottom: 50px;
         }
+
         .h1first{
             font-family: 'Roboto', sans-serif;
             font-style: normal;
@@ -61,20 +66,20 @@ letter-spacing: 0.1em;
        
         .header {
             background-color: #EEEFF1;
-            height: 700px;
         }
+
         .h2 {
             font-family: 'Roboto', sans-serif;
             font-style: normal;
             color: #000000;
         }
+
     .h3{
         font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 21px;
 line-height: 25px;
-
 color: #FFFFFF;
     }
         
@@ -99,14 +104,17 @@ color: #FFFFFF;
             .video {
                 margin-bottom: 100px;
             }
+
             .videoh{
                 background-color: #EEEFF1;
-            height: 1002px;
+            
             }
+
         .navig{
                 padding-top: 46px;
                 
          }
+
          .nav_text{
             font-family: 'Roboto', sans-serif;
             color: #000000;
@@ -115,8 +123,7 @@ color: #FFFFFF;
             line-height: 26px;
             font-size: 16px;
             letter-spacing: 0.1em;
-          
-            
+           
          }
          .navfirst_text{
             font-family: 'Roboto', sans-serif;
@@ -151,6 +158,7 @@ line-height: 26px;
 color: #727272;
   margin-bottom: 60px;
  }
+
  .ph2{
     font-family: 'Roboto', sans-serif; 
     font-style: normal;
@@ -159,20 +167,43 @@ color: #727272;
     line-height: 26px;
     color: #727272;
  }
+
  .pblue{
     font-family: 'Roboto', sans-serif; 
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
     color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: px;
 }
+
 .skills{
     padding-top: 102px;
     padding-bottom: 101px;
 }
 
-.row_2 {
-    margin-top: 162px;
+.stick:hover:after {
+    
+    color: #333; /* Цвет текста */ 
+    background-color: #fc0; /* Цвет фона */ 
+    font-size: 90%; /* Размер шрифта */ 
+    padding: 100%; /* Поля вокруг текста */ 
+    left: 0; right: 0;
+    content:
+  }
+
+.spanblue{
+font-family: 'Roboto', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+.footer{
+    background-color: #34547A;
 }
