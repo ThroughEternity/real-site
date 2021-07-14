@@ -82,33 +82,16 @@ font-size: 21px;
 line-height: 25px;
 color: #FFFFFF;
     }
-        
-        /* .i{
-           width: 115.2px;
-           height: 72px;
-           align-content: center;
-        }
 
-        .navbar {
-            position: relative;
-            
-        }
-          .navBrand{ position: relative;
-            margin-bottom: 10px;
-            padding-top: 30px;
-        }
-        .container{
-            margin-left: 380.4px;
-            margin-right: 401px;} */
-
-            .video {
-                margin-bottom: 100px;
-            }
+ .video {
+     margin-bottom: 100px;
+ }
 
             .videoh{
                 background-color: #EEEFF1;
             
             }
+
 .message{
     padding-top: 20px;
     padding-bottom: 50px;
@@ -188,14 +171,30 @@ color: #727272;
     padding-bottom: 101px;
 }
 .stick{
-    background-color: red;
+    position: relative;
 }
-.stick:hover::after {
-    position: absolute; /* Абсолютное позиционирование */
-    background: rgba(209,155,111,0.8); /* Цвет фона */
-
-
+.stick::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(
+        0deg
+        , rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url(../img/Group.svg);;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+       
    }
+.stick:hover{
+    z-index: 1000;
+}
+.stick:hover img{
+    opacity: 0.5;
+}
+.stick:hover::after{
+    display: flex;
+}
 
 .spanblue{
 font-family: 'Roboto', sans-serif; 
