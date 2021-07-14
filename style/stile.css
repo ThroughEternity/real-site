@@ -1,17 +1,28 @@
+.about{
+    padding-top: 100px;
+}
+
 .aboutme{
     padding-top: 112px;
 
 }
+
+.blue{
+    background-color: #34547A;
+    margin-top: 84px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
 .button{
     font-size: 16px;
     border: none;
     color: white;
     padding: 25px 41px;
     text-align: center;
-    width: 225px;
-    height: 65px;
     background-color: #34547A;
 }
+
 .butttext{
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -22,24 +33,27 @@ letter-spacing: 0.1em;
 }
 
 .design{
-
     padding-top: 147px;
-}
-.designpadding{
- 
-}
-.designimg{
-    padding-top: 168px;
+    padding-bottom: 157px;
 }
 
-       
+.mcsoft{
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.bgskill{
+    background-color: #34547A;   
+}
 
        .h1 {
             font-family: 'Roboto', sans-serif;
-font-style: normal;
-text-align: center;
-margin-bottom: 50px;
+            font-style: normal;
+            text-align: center;    
+            color: #000000;
+            margin-bottom: 50px;
         }
+
         .h1first{
             font-family: 'Roboto', sans-serif;
             font-style: normal;
@@ -52,9 +66,22 @@ margin-bottom: 50px;
        
         .header {
             background-color: #EEEFF1;
-            height: 700px;
         }
-    
+
+        .h2 {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            color: #000000;
+        }
+
+    .h3{
+        font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: #FFFFFF;
+    }
         
         /* .i{
            width: 115.2px;
@@ -74,10 +101,23 @@ margin-bottom: 50px;
             margin-left: 380.4px;
             margin-right: 401px;} */
 
+            .video {
+                margin-bottom: 100px;
+            }
+
+            .videoh{
+                background-color: #EEEFF1;
+            
+            }
+.message{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
         .navig{
                 padding-top: 46px;
                 
          }
+
          .nav_text{
             font-family: 'Roboto', sans-serif;
             color: #000000;
@@ -86,8 +126,7 @@ margin-bottom: 50px;
             line-height: 26px;
             font-size: 16px;
             letter-spacing: 0.1em;
-          
-            
+           
          }
          .navfirst_text{
             font-family: 'Roboto', sans-serif;
@@ -122,3 +161,54 @@ line-height: 26px;
 color: #727272;
   margin-bottom: 60px;
  }
+
+ .ph2{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+ }
+
+ .pblue{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: px;
+}
+
+.skills{
+    padding-top: 102px;
+    padding-bottom: 101px;
+}
+.stick{
+    background-color: red;
+}
+.stick:hover::after {
+    position: absolute; /* Абсолютное позиционирование */
+    background: rgba(209,155,111,0.8); /* Цвет фона */
+
+
+   }
+
+.spanblue{
+font-family: 'Roboto', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+.footer{
+    background-color: #34547A;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
