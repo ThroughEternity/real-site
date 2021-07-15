@@ -142,6 +142,9 @@
     color: #727272;
 }
 
+.progressbott{
+    margin-bottom: 50px;
+}
 .pfoot {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -189,6 +192,7 @@
 
 .stick {
     position: relative;
+    
 }
 
 .stick::after {
@@ -199,10 +203,15 @@
     ;
     background-position: center;
     background-repeat: no-repeat;
+    display: none;
     position: absolute;
     top: 0;
+    
 }
 
+.stickbox{
+    
+}
 .stick:hover {
     z-index: 1000;
 }
